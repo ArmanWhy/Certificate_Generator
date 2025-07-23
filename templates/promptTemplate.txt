@@ -1,0 +1,14 @@
+// templates/promptTemplate.txt
+
+Generate a JSON object containing certificate content for a category.
+
+Category: {{CATEGORY_NAME}}
+
+Return format:
+{
+  "title": "Certificate of Completion",
+  "subtitle": "Presented to",
+  "recipient": "", // Leave blank to fill dynamically
+  "description": "For outstanding performance in {{CATEGORY_NAME}}",
+  "signature": "Jane Doe, Program Director"
+}
